@@ -59,9 +59,8 @@ class MyPlayer( xbmc.Player ):
                         for episode in jsonobject['result']['episodes']:
                             if(episode['episode'] == (playingEpisode - 1)):
                                 #log("FOUND!")
-                                playcount = episode['playcount']
+                                playcount += episode['playcount']
                                 found = True
-                                break
                         
                         if not found or playcount == 0:
                             #log("Stopping playback!")
