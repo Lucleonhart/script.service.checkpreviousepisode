@@ -15,7 +15,7 @@
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <forum>http://forum.xbmc.org/showthread.php?tid=151531</forum>
     <website>http://www.lucleonhart.de</website>
-    <source>git://github.com/Lucleonhart/script.service.checkpreviousepisode.git</source>
+    <source>http://github.com/Lucleonhart/script.service.checkpreviousepisode</source>
     <email>xbmc at lucleonhart dot de</email>
   </extension>
 </addon>
